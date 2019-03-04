@@ -1,7 +1,7 @@
 {
-  "name":"@adonisjs/flutterwave-rave",
+  "name":"adonisjs-flutterwave-rave",
   "version":"0.0.1",
-  "description":"",
+  "description":"An addon/plugin package to provide Flutterwave (Rave) payment services in AdonisJS 4.0+",
   "main": "index.js",
   "files": [
     "src",
