@@ -1,7 +1,7 @@
 'use strict'
 
 /**
- * adonis-bugsnag
+ * adonis-flutterwave-rave
  *
  * @license MIT
  * @copyright Slynova - Romain Lanz <romain.lanz@slynova.ch>
