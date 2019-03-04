@@ -27,7 +27,7 @@
     "APIs",
     "adonis-framework",
     "payments",
-    "addon"
+    "adonisjs-addon"
   ],
   "author": "<StitchNG> https://github.com/stitchng",
   "license": "MIT",
