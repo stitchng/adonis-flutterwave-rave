@@ -13,7 +13,7 @@ An addon/plugin package to provide Flutterwave (Rave) payment services in Adonis
 
 ```bash
 
-    $ npm i --save @adonisjs/adonis-flutterwave-rave
+    $ npm i --save adonisjs-flutterwave-rave
 
 ```
 
@@ -42,8 +42,8 @@ MIT
     
 ## Contributing
 
-[npm-image]: https://img.shields.io/npm/v/@adonisjs/adonis-flutterwave-rave.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@adonisjs/adonis-flutterwave-rave
+[npm-image]: https://img.shields.io/npm/v/adonisjs-flutterwave-rave.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/adonisjs-flutterwave-rave
 
 [travis-image]: https://img.shields.io/travis/stitchng/adonis-flutterwave-rave/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/stitchng/adonis-flutterwave-rave
