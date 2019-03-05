@@ -11,8 +11,10 @@
 const path = require('path')
 
 module.exports = async function (cli) {
-  await cli.makeConfig('ravepay.js', path.join(__dirname, 'config/ravepay.js'))
-    .catch((e) => {})
-
-  cli.command.completed('create', 'config/ravepay.js')
+  try{
+    await cli.makeConfig('ravepay.js', path.join(__dirname, 'config/ravepay.js'))
+    cli.command.completed('create', 'config/ravepay.js')
+  }catch(error){
+    // ignore if ravepay.js already exists
+  }
 }
