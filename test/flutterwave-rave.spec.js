@@ -30,7 +30,7 @@ test.group('AdonisJS FlutterwaveRave Test(s)', (group) => {
 
     const FlutterwaveRaveInstance = new FlutterwaveRave(FlutterwaveRaveStub, this.config, this.env)
 
-    assert.isTrue(typeof FlutterwaveRaveInstance.Card.charge === 'function')
-    assert.isTrue(typeof FlutterwaveRaveInstance.TokenCharge.card === 'function')
+    assert.isTrue(typeof FlutterwaveRaveInstance.agent.Card.charge === 'function')
+    assert.isTrue(typeof FlutterwaveRaveInstance.agent.TokenCharge.card === 'function')
   })
 })
