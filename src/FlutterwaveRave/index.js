@@ -1,10 +1,9 @@
 'use strict';
 
-const Event = use('Event')
-const Env = use('Env')
+//const Event = use('Event')
 
 class FlutterwaveRaveAPIClient {
-      constructor(Agent, Config) {
+      constructor(Agent, Config, Env) {
           this.agent = new Agent(
               Config.get('ravepay.publicKey'),
               Config.get('ravepay.privateKey')
