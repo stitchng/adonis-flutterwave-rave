@@ -50,6 +50,8 @@ An addon/plugin package to provide Flutterwave (Rave) payment services in Adonis
           })
       }
   }
+  
+  module.exports = PaymentsController
 
 ```
 
