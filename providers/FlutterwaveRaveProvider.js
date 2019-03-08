@@ -10,7 +10,7 @@ class FlutterwaveRaveProvider extends ServiceProvider {
       const FlutterwaveRave = require('../src/FlutterwaveRave/index.js')
       return (new FlutterwaveRave(require('ravepay'), Config, Env)).agent
     })
-    
+
     this.app.alias('Adonis/Addons/FlutterwaveRave', 'FlutterwaveRave')
   }
 }

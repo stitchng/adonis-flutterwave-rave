@@ -82,6 +82,8 @@ MIT
     
 ## Contributing
 
+See the [CONTRIBUTING.md](https://github.com/stitchng/adonis-flutterwave-rave/blob/master/CONTRIBUTING.md) file for info
+
 [npm-image]: https://img.shields.io/npm/v/adonisjs-flutterwave-rave.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/adonisjs-flutterwave-rave
 
