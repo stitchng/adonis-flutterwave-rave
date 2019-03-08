@@ -17,6 +17,42 @@ An addon/plugin package to provide Flutterwave (Rave) payment services in Adonis
 
 ```
 
+>Import and use 
+
+```js
+
+  'use strict'
+  
+  const Rave = use('FlutterwaveRave')
+  
+  class PaymentsController {
+  
+      constructor(BillsHistory){
+          this.bills_history = BillsHistory
+      }
+      
+      static get inject(){
+          return [
+              'App/Models/BillsHistory'
+          ]
+      }
+      
+      async chargeCard({ request, session, response }){
+      
+          let response = await Rave.Card.charge({
+              cardno: "5273938738903039399"
+          })
+          
+          console.log("RESULT: ", response.body.data)
+          
+          return response.status(200).json({
+             data:response.body.data
+          })
+      }
+  }
+
+```
+
 ## License
 
 MIT
