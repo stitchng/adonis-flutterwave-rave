@@ -1,7 +1,7 @@
 'use strict'
 
 /*
- * adonis-bugsnag
+ * adonis-flutterwave
  *
  * (c) Harminder Virk <virk@adonisjs.com>
  *
